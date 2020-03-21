@@ -13,4 +13,16 @@ let hide = function() {
 };
 
 view.onclick = open;
-close.onclick = hid
+close.onclick = hid;
+
+var buttonDark = document.querySelector("#btn btn-warning");
+
+var inputVar = document.querySelector("#form-control");
+
+buttonDark.addEventListener("click", function () {
+    var liVar = document.createElement("li");
+    var textVar = document.createTextNode(inputVar.value); // .value is inside JS package
+    liVar.appendChild(textVar);
+    ulVar.appendChild(liVar); 
+    inputVar.value = "";
+});
