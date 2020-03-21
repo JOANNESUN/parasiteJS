@@ -20,6 +20,7 @@ var buttonDark = document.querySelector("#btn btn-warning");
 var inputVar = document.querySelector("#form-control");
 
 buttonDark.addEventListener("click", function () {
+  console.log('hello');
     var liVar = document.createElement("li");
     var textVar = document.createTextNode(inputVar.value); // .value is inside JS package
     liVar.appendChild(textVar);
