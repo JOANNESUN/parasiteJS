@@ -12,15 +12,17 @@ let hide = function() {
   close.style.display = 'none';
 };
 
-view.onclick = open;
-close.onclick = hid;
+// view.onclick = open;
+// close.onclick = hid;
 
-var buttonDark = document.querySelector("#btn btn-warning");
+var buttonDark = document.querySelector("#buttonX");
 
-var inputVar = document.querySelector("#form-control");
+var inputVar = document.querySelector("#formX");
+
+var ulVar = document.querySelector("#unList");
 
 buttonDark.addEventListener("click", function () {
-  console.log('hello');
+  console.log('hello'); // always write this so we know this function is working
     var liVar = document.createElement("li");
     var textVar = document.createTextNode(inputVar.value); // .value is inside JS package
     liVar.appendChild(textVar);
