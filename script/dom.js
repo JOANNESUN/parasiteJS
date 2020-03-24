@@ -1,16 +1,24 @@
 var changingColor = document.querySelector(".display-1");
 // connecting js to html 
+
+changingColor.addEventListener("click", function () {
+    // headingh3.classList.add("newcolor");
+    changingColor.classList.toggle("newbody");
+    
+}); 
+
+
 var buttonYellow = document.querySelector("#buttonX");
 
 var inputVar = document.querySelector("#inputY");
 
 // changingColor.classList.add("newcolor");
 
+var changing_background = document.querySelector(".intro_body");
 
-changingColor.addEventListener("click", function () {
-    // headingh3.classList.add("newcolor");
-    changingColor.classList.toggle("newcolor");
-    
+changing_background.addEventListener("click", function () {
+    changing_background.classList.toggle("newbody");
+
 }); 
 
 
@@ -26,10 +34,5 @@ buttonYellow.addEventListener("click", function () {
 
 
 
-var changing_background = document.querySelector(".intro_body");
 
-changing_background.addEventListener("click", function () {
-    changing_background.classList.toggle("newbody");
-
-}); 
 

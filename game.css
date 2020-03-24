@@ -1,0 +1,38 @@
+#question{
+
+    text-align: center;
+
+}
+
+#gameOption{
+
+    text-align: center;
+
+}
+
+#yourparasite{
+
+    text-align: center;
+}
+
+img{
+
+    width: 100;
+    height: 100;
+}
+
+#buttPicture{
+    width: 250;
+    height: 200;
+
+}
+
+#hairPicture{
+    width: 250;
+    height: 200;
+
+}
+
+.newbody{
+    background-color: darkgrey;
+}
