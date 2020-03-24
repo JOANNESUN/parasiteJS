@@ -7,32 +7,18 @@
 #gameOption{
 
     text-align: center;
+    align-content: center;
 
 }
 
 #yourparasite{
 
     text-align: center;
+    align-content: center;
 }
 
-img{
+body{
 
-    width: 100;
-    height: 100;
+    background-color: lavenderblush;
 }
 
-#buttPicture{
-    width: 250;
-    height: 200;
-
-}
-
-#hairPicture{
-    width: 250;
-    height: 200;
-
-}
-
-.newbody{
-    background-color: darkgrey;
-}
